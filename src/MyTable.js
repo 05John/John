@@ -39,7 +39,7 @@ function MyBetterRow(props) {
 function MyBetterCell(props) {
 
   function changeColor(e) {
-    e.target.style.backgroundColor = "white";
+    e.target.style.backgroundColor = "pink";
   }
 
   let backgroundColor = "inherit";
@@ -63,13 +63,15 @@ function MyBetterCell(props) {
       backgroundColor = "#0D2C54";
       break;
     default:
-      backgroundColor = "white";
+      backgroundColor = "pink";
   }
 
   return props.header ? (
     <th></th>
   ) : (
-    <td onClick={changeColor} style={{ backgroundColor }}></td>
+    <td onClick={changeColor} style={{ backgroundColor }}>
+      <div className="diamond"></div>
+    </td>
   );
 }
 

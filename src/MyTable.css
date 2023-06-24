@@ -1,3 +1,4 @@
+/*
 td,
 th {
   border: 1px solid #ddd;
@@ -12,6 +13,7 @@ tr:hover {
   background-color: #ddd;
 }
 */
+/*
 th {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -19,7 +21,15 @@ th {
   background-color: #04aa6d;
   color: white;
 }
-
+*/
 table{
     margin: 0 auto;
+}
+
+.diamond {
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  border-bottom-color: #F6511D;
+  
 }
