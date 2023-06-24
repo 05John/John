@@ -2,7 +2,7 @@ import React from "react";
 import "../ImagesStyle.css";
 import img2 from "../imgs/logo-dark@8x.png";
 
-const Home = () => {
+const Gallerry = () => {
   return (
     <div>
       <div className='rowImages'>
@@ -145,4 +145,4 @@ const Home = () => {
     </div>
   );
 };
-export default Home;
+export default Gallerry;
