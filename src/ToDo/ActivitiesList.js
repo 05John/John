@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function TasksList({ allTasks, handleDelete }) {
+export default function ActivitiesList({ allActivities, handleDelete }) {
   return (
-    <ul className="TaksListITems">
-      {allTasks.map(({ title, description, id }) => (
+    <ul className="ActivitiesListITems">
+      {allActivities.map(({ title, description, id }) => (
         <li className="toDoListItem" key={id}>
           <div>
             <h2>{title}</h2>
