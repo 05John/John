@@ -35,7 +35,7 @@ function NavBar() {
                 className='nav-links'
                 onClick={handleClick}
               >
-                Table
+                My Table
               </NavLink>
             </li>
             <li className='nav-item'>
