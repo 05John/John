@@ -1,12 +1,16 @@
 import React from "react";
 import MyTable from "../MyTable";
+
 const Table = () => {
   return (
     <div>
-      <MyTable nColumns={100} nRows={65} />
-      <MyTable nColumns={15} nRows={90} />
-      <MyTable nColumns={100} nRows={5} />
+      <MyTable nColumns={100} nRows={30} />
+      <MyTable nColumns={25} nRows={25} />
+      <MyTable nColumns={25} nRows={25} />
+      <MyTable nColumns={25} nRows={25} />
+      <MyTable nColumns={100} nRows={10} />
     </div>
   );
 };
+
 export default Table;
